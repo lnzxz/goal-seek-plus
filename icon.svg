@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect x="4" y="4" width="120" height="120" rx="26" fill="#1a7f5a"/>
+  <!-- target -->
+  <circle cx="58" cy="70" r="38" fill="none" stroke="#ffffff" stroke-width="9"/>
+  <circle cx="58" cy="70" r="20" fill="none" stroke="#ffffff" stroke-width="9"/>
+  <circle cx="58" cy="70" r="6" fill="#ffffff"/>
+  <!-- arrow into the bullseye -->
+  <line x1="70" y1="58" x2="106" y2="22" stroke="#ffd166" stroke-width="8" stroke-linecap="round"/>
+  <path d="M59 69 L64 47 L81 64 Z" fill="#ffd166" stroke="#ffd166" stroke-width="4" stroke-linejoin="round"/><path d="M106 22 L106 8 M106 22 L120 22 M98 30 L98 16 M98 30 L112 30" stroke="#ffd166" stroke-width="5" stroke-linecap="round"/>
+</svg>

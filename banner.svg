@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 140" width="220" height="140">
+  <rect width="220" height="140" fill="#1a7f5a"/>
+  <g transform="translate(78 14) scale(0.5)">
+    <circle cx="58" cy="70" r="38" fill="none" stroke="#ffffff" stroke-width="9"/>
+    <circle cx="58" cy="70" r="20" fill="none" stroke="#ffffff" stroke-width="9"/>
+    <circle cx="58" cy="70" r="6" fill="#ffffff"/>
+    <line x1="70" y1="58" x2="106" y2="22" stroke="#ffd166" stroke-width="8" stroke-linecap="round"/>
+    <path d="M59 69 L64 47 L81 64 Z" fill="#ffd166" stroke="#ffd166" stroke-width="4" stroke-linejoin="round"/><path d="M106 22 L106 8 M106 22 L120 22 M98 30 L98 16 M98 30 L112 30" stroke="#ffd166" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="110" y="104" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Goal Seek Plus</text>
+  <text x="110" y="124" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#d7f5e8">Fast · Accurate · Private</text>
+</svg>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Goal Seek Plus for Google Sheets</title>
+  <meta name="description" content="A fast, accurate Goal Seek for Google Sheets. Find the input that gives the result you need." />
+  <link rel="icon" href="icon-128.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="icon-128.png" alt="" width="64" height="64" />
+    <div>
+      <h1>Goal Seek Plus</h1>
+      <p class="tag">A fast, accurate Goal Seek for Google Sheets™</p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <p>Know the result you need, but not the input that gets you there? Goal Seek Plus changes one input cell
+        until a formula reaches your target: the break-even price, the interest rate behind a payment, the sales
+        volume that hits a commission tier.</p>
+      <ul>
+        <li><strong>Fast:</strong> typical models solve in a couple of seconds, using as few recalculations as possible.</li>
+        <li><strong>Honest:</strong> if no input reaches your target (for example a tiered SUMIFS or IF that jumps past it), it tells you so and shows the closest result instead of a wrong answer.</li>
+        <li><strong>Less typing:</strong> picks up the selected cell and remembers your last setup on each sheet.</li>
+        <li><strong>Undo:</strong> one click puts the original value back.</li>
+        <li><strong>Private:</strong> it only accesses the spreadsheet you open it in, and nothing is sent anywhere.</li>
+      </ul>
+    </section>
+
+    <section id="how">
+      <h2>How to use it</h2>
+      <ol>
+        <li>Open your spreadsheet and choose <em>Extensions → Goal Seek Plus → Open Goal Seek</em>.</li>
+        <li><strong>Set cell:</strong> the cell containing the formula whose result you want (select it and click <em>Use selected</em>).</li>
+        <li><strong>To value:</strong> the result you want that formula to show.</li>
+        <li><strong>By changing cell:</strong> the input value Goal Seek is allowed to change. It must contain a number, not a formula.</li>
+        <li>Click <strong>Solve</strong>. Click <strong>Restore original value</strong> to undo.</li>
+      </ol>
+    </section>
+
+    <section id="support">
+      <h2>Support &amp; FAQ</h2>
+      <h3>It says "No exact solution"</h3>
+      <p>Your formula jumps past the target value (common with tiers, IF, lookups, ROUND). Goal Seek Plus shows the input
+        where the jump happens. Check whether your target is actually achievable.</p>
+      <h3>It says "Target not reached"</h3>
+      <p>No input value tried gets the formula to your target. For example, a square can never be negative. The closest
+        result found is shown.</p>
+      <h3>It says the input does not change the target</h3>
+      <p>The "Set cell" formula doesn't depend on the "By changing cell". Check that you picked the right cells.</p>
+      <h3>Something else?</h3>
+      <p>Email <a href="mailto:goalseekplus@lnz.gg">goalseekplus@lnz.gg</a> and include what you tried. Screenshots help.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of service</a> · © lnz
+    <p class="small">Google Sheets™ is a trademark of Google LLC. Goal Seek Plus is not affiliated with or endorsed by Google.</p>
+  </footer>
+</body>
+</html>
